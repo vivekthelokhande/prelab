@@ -1,0 +1,25 @@
+<html>
+<title>Practical 3</title>
+<h2>Image inserting</h2>
+<img src = "C:\Users\Students\Downloads/download.jpg" alt="Danerys targeryan">
+<a href = "viv.html">Click</a>
+</html>
+<html>
+<head>
+<title>List</title>
+</head>
+<h2>Unordered list example</h2>
+<ul>
+<li>Apple</li>
+<li>Banana</li>
+<li>Orange</li>
+<li>Mango</li>
+</ul>
+<h2>Ordered list example</h2>
+<ol>
+<li>Vivek P.Lokhande</li>
+<li>CS25060</li>
+<li>Learning about ordered and unordered list</li>
+<li>Section A cse</li>
+</ol>
+</html>
