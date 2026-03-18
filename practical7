@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Tribute to Chhatrapati Shivaji Maharaj</title>
+
+<style>
+body{
+background-color:white;
+font-family:"Times New Roman";
+text-align:center;
+
+}
+h1{
+color:black;
+}
+</style>
+
+</head>
+
+<body>
+
+<div>
+<h1>Tribute to Chhatrapati Shivaji Maharaj</h1>
+</div>
+
+<div>
+<a href="#">Home</a>
+<a href="#">Life</a>
+<a href="#">Achievements</a>
+</div>
+
+<div>
+<img src="shivaji.jpg" width="200">
+</div>
+
+<div>
+<p>
+Chhatrapati Shivaji Maharaj (1630-1680) was a legendary 17th-century Maratha warrior king<br>
+who founded the Maratha Empire in western India.Born at Shivneri Fort, he pioneered guerrilla<br>
+warfare ("Ganimi Kava"), established a formidable navy,and challenged the Mughal Empire,<br>
+establishing an independent Hindu kingdom, or Hindavi Swarajya, coronated in 1674.<br>
+</p>
+
+<p>
+The 17th-century king's legacy is honored today, with the landmark <br>
+railway station in Mumbai known as the Chhatrapati Shivaji Maharaj Terminus (CSMT).<br>
+
+<p>
+Known as a just and progressive ruler, he was a secular leader who respected<br>
+all religions and championed women's rights
+</div>
+<h3>Vivek Lokhande</h3>
+<h3>CS25060</h3>
+<h3>Section A cse</h3>
+</body>
+</html>
