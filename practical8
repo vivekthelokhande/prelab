@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Image Gallery</title>
+    <link rel="stylesheet"
+  href="Design.css">
+</head>
+<body>
+	<p><b>
+	Name: Vivek P. Lokhande<br>
+	USN: CS25060<br>
+	Section A<br>
+	</b></p>
+<br>
+
+    <h1>Image Gallery Of Great Kings</h1>
+<br>
+
+    <div class="gallery">
+       
+	<div class="card">
+            <img src="C:\Users\Vivek\Desktop\codeWeb\pic1.png">
+	</div>
+
+        <div class="card">
+            <img src="C:\Users\Vivek\Desktop\codeWeb\pic2.jpg">
+        </div>
+
+        <div class="card">
+            <img src= "C:\Users\Vivek\Desktop\codeWeb\pic3.jpg">
+    	</div>
+   
+	<div class="card">
+		 <img src="C:\Users\Vivek\Desktop\codeWeb\pic5.png">
+	</div>
+	<div class="card">
+		<img src="C:\Users\Vivek\Desktop\codeWeb\pic6.jpg">
+	</div>
+
+		
+	<div class="card">
+		<img src="C:\Users\Vivek\Desktop\codeWeb\pic8.jpg">
+	</div>
+
+	<div class ="card">
+		<img src="C:\Users\Vivek\Desktop\codeWeb\pic4.jpg">
+	</div>
+
+	<div class ="card">
+		<img src="C:\Users\Vivek\Desktop\codeWeb\pic9.jpg">
+	</div>
+
+	<div class="card">
+		<img src="C:\Users\Vivek\Desktop\codeWeb\pic10.jpeg">
+	</div>
+	<div class="card">
+		<img src="C:\Users\Vivek\Desktop\codeWeb\pic11.jpg">
+      	</div>
+
+	<div class="card">
+		<img src="C:\Users\Vivek\Desktop\codeWeb\pic12.jpg">
+	</div>
+
+	<div class="card">
+		<img src="C:\Users\Vivek\Desktop\codeWeb\pic13.jpg">
+</div>
+
+	<div class="card">
+	<img src="C:\Users\Vivek\Desktop\codeWeb\pic15.webp">
+	</div>
+
+	<div class="card">
+	<img src="C:\Users\Vivek\Desktop\codeWeb\pic16.jpg">
+	</div>
+
+	<div class="card">
+	<img src="C:\Users\Vivek\Desktop\codeWeb\pic17.jpg">
+	</div>
+
+	<div class="card">
+	<img src="C:\Users\Vivek\Desktop\codeWeb\pic18.jpg">
+	</div>
+
+	<div class="card">
+	<img src="C:\Users\Vivek\Desktop\codeWeb\pic19.jpg">
+	</div>
+
+	<div class="card">
+	<img src="C:\Users\Vivek\Desktop\codeWeb\pic20.jpg">
+	</div>
+
+</body>
+</html>
