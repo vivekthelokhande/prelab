@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Virtual Chemistry Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🧪 Virtual Chemistry Lab</h1>
+  <p>Group Members – CS25060, CS25036, CS25059</p>
+
+  <div class="shelf">
+  <div class="chemical c1" draggable="true">HCl (Acid)</div>
+    <div class="chemical c2" draggable="true">NaOH (Base)</div>
+    <div class="chemical c3" draggable="true">H₂O (Water)</div>
+    <div class="chemical c4" draggable="true">H₂O₂ (Peroxide)</div>
+    <div class="chemical c5" draggable="true">NaCl (Salt)</div>
+    <div class="chemical c6" draggable="true">EtOH (Ethanol)</div>
+  </div>
+
+  <div class="workbench">
+
+    <div class="drop-zone za">
+      <h3>Beaker A</h3>
+      <p class="hint">Place a chemical here</p>
+    </div>
+
+    <div class="drop-zone zb">
+      <h3>Beaker B</h3>
+      <p class="hint">Place a chemical here</p>
+    </div>
+
+    <div class="drop-zone zc">
+      <h3>Flask C</h3>
+      <p class="hint">Place a chemical here</p>
+    </div>
+
+  </div>
+
+  <div class="info">
+    Simply drag a chemical from the shelf and drop it into any beaker or flask to begin experimenting.
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS FILE 
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #4a148c;
+  margin-bottom: 8px;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 22px;
+  font-size: 15px;
+}
+
+.shelf {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  background: #fff8e1;
+  border: 2px solid #ffca28;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 32px;
+}
+
+.chemical {
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: grab;
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.chemical:active {
+  cursor: grabbing;
+  opacity: 0.7;
+}
+
+.c1 { background: #ffcdd2; color: #c62828; border-color: #e53935; }
+.c2 { background: #bbdefb; color: #1565c0; border-color: #1e88e5; }
+.c3 { background: #c8e6c9; color: #2e7d32; border-color: #43a047; }
+.c4 { background: #fff9c4; color: #f57f17; border-color: #fbc02d; }
+.c5 { background: #f3e5f5; color: #6a1b9a; border-color: #8e24aa; }
+.c6 { background: #ffe0b2; color: #e65100; border-color: #fb8c00; }
+
+.c1:hover { background: #e53935; color: #fff; }
+.c2:hover { background: #1e88e5; color: #fff; }
+.c3:hover { background: #43a047; color: #fff; }
+.c4:hover { background: #fbc02d; color: #fff; }
+.c5:hover { background: #8e24aa; color: #fff; }
+.c6:hover { background: #fb8c00; color: #fff; }
+
+.workbench {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+
+.drop-zone {
+  width: 160px;
+  min-height: 150px;
+  border-radius: 14px;
+  padding: 16px;
+  border: 3px dashed;
+  transition: all 0.2s ease;
+}
+
+.za { background: #fce4ec; border-color: #f48fb1; }
+.zb { background: #e3f2fd; border-color: #90caf9; }
+.zc { background: #e8f5e9; border-color: #a5d6a7; }
+
+.za:hover { background: #f8bbd0; border-color: #e91e63; }
+.zb:hover { background: #bbdefb; border-color: #1e88e5; }
+.zc:hover { background: #c8e6c9; border-color: #43a047; }
+
+.drop-zone h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.za h3 { color: #c2185b; }
+.zb h3 { color: #1565c0; }
+.zc h3 { color: #2e7d32; }
+
+.hint {
+  color: #999;
+  font-size: 12px;
+}
+
+.info {
+  background: #ede7f6;
+  border: 1px solid #ce93d8;
+  border-radius: 10px;
+  padding: 14px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #4a148c;
+  line-height: 1.5;
+}
