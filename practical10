@@ -1,0 +1,37 @@
+
+<html>
+<head>
+    <title>iframe anchor</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+        a {
+            margin: 5px;
+            padding: 5px;
+            background: lightgray;
+            text-decoration: none;
+            color: black;
+        }
+        iframe {
+            width: 80%;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Iframe using anchor</h2>
+    <div>
+        <a href="https://www.wikipedia.org" target="f">Wikipedia</a>
+        <a href="https://www.google.com/maps?q=sitm%20institute%20nagpur&output=embed" target="f">Map</a>
+        <a href="https://www.youtube.com/embed/ZwgHP5yEigk" target="f">Youtube</a>
+    </div>
+    <iframe name="f" src="https://www.wikipedia.org"></iframe>
+    <footer>
+        <p>practical iframe</p>
+        <p>Name:Vivek P Lokhande <br>
+           URN: C5325001 </p>
+    </footer>
+</body>
+</html>
